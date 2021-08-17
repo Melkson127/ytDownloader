@@ -18,8 +18,52 @@ section{
     margin: auto;
     width: 500px;
     height: 200px;
+    flex-direction: column;
+}
+section #thumb img{
+    width: 150px;
+    height: 150px;
 }
 section search-bar{
     align-items: center;
     margin-top: 50px;
+}
+#thumb{
+    display: flex;
+    width: 100%;
+    height: 350px;
+    flex-direction: row;
+    background: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#thumb h3{
+    margin-left: 20px;
+}
+.qualiDiv{
+    display: flex;
+    margin-top: 20px;
+    width: 200px;
+    height: 100px;
+}
+.quality{
+    position: relative;
+    width: 65px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid white;
+    text-align: center;
+    margin: auto;
+    color: white;
+    cursor: pointer;
+    transition: all .5s linear ;
+}
+.quality p{
+    margin-top: 10px;
+}
+.quali{
+    display: none;
+}
+.temp{
+    margin-top: 10px;
+    color:white;
 }

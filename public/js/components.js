@@ -30,7 +30,6 @@ class Searchbar extends HTMLElement{
         const style = document.createElement("link")
         style.rel = "stylesheet"
         style.href = "/css/components.css"
-        console.log(this.getAttribute("sla"))
         this.shadowRoot.append(style,searchDiv,searchSpan)
         
     }
